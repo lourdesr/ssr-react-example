@@ -1,0 +1,29 @@
+{
+  "name": "ssr-react-firebase",
+  "version": "1.0.0",
+  "description": "SSR React Firebase Example",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "node_modules/.bin/webpack"
+  },
+  "author": "Lourdes Roashan",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "express": "^4.16.4",
+    "firebase-admin": "^6.1.0",
+    "firebase-functions": "^2.1.0",
+    "firebase-tools": "^6.0.1",
+    "webpack": "^4.25.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
