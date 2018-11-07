@@ -4,16 +4,18 @@
   "description": "SSR React Firebase Example",
   "main": "index.js",
   "scripts": {
-    "webpack": "node_modules/.bin/webpack"
+    "webpack": "node_modules/.bin/webpack",
+    "babel": "node_modules/.bin/babel src -d functions/src && node_modules/.bin/babel index.js -d functions"
   },
   "author": "Lourdes Roashan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.2",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.0",

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "non-ssr-react-c2817"
+    "default": "non-ssr-react-c2817",
+    "ssr": "ssr-react-bb7b9"
   }
 }
